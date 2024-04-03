@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gilroy";
+    src: local("Gilroy") url("./assets/fonts/Gilroy-Regular.ttf") format("ttf");
+    font-display: swap;
+  }
+  .hero-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 60%, #131417), url("./assets/images/hero-bg.png"), url("./assets/images/photo_5780415889357783243_x.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  #social-shadow-telegram:hover {
+    box-shadow: 0 0px 40px 0px #26a4e3;
+  }
+  #social-shadow-phone:hover {
+    box-shadow: 0 0px 40px 0px #15b76c;
+  }
+  #social-shadow-message:hover {
+    box-shadow: 0 0px 40px 0px #196fe1;
+  }
+}
