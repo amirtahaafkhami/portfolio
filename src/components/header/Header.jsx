@@ -1,4 +1,3 @@
-import "../../index.css"
 import Hero from "./Hero";
 export default function Header() {
   return (

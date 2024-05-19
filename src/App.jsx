@@ -6,7 +6,7 @@ export default function App() {
     <div className=" text-slate-200 bg-[#131417]">
       {/*bg-[#131417]*/}
       <Navbar />
-      <main className="sm:pl-[8rem] sm:pt-0 w-full main-bg">
+      <main className="md:pl-[8rem] w-full main-bg">
         <Header />
         <About />
       </main>

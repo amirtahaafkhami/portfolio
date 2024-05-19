@@ -1,4 +1,3 @@
-import Counter from "./Count";
 import SocialIcon from "./SocialIcon";
 
 export default function About() {
